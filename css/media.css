@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1160px) {
+    .container{
+        max-width: 100%;
+    }
+    .menu-sop {
+        background-color: 3f3f3f;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    .mak-img {
+        width: 70%;
+        height: 345px;
+        overflow: hidden;
+    }
+    .mak-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .product-1 img {
+        width: 100%;
+    }
+    .product-1 span img {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .header-top {
+        text-align: center;
+        display: block;
+    }
+    .off-icon{
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        right: 0;
+        padding: 10px;
+    }
+    .menu ul {
+        display: block;
+        list-style: none;
+        text-align: left;
+    }
+    .menu ul span {
+        color: #fff;
+        border-right: 2px solid #cccccc;
+        padding-right: 10px;
+        border: none;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        font: 24px;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 30px;
+    }
+    .menu ul span {
+        color: #000;
+    }
+    .off-icon-1{
+        display: block;
+    }
+    .men-menu ul {
+        display: block;
+        list-style: none;
+        text-align: left;
+    }
+    .men-menu ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        font: 24px;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 30px;
+    }
+    /* .men-menu ul {
+        display: block;
+        list-style: none;
+        text-align: left;
+    }
+    .men-menu  ul li {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        border-bottom: 1px solid;
+        padding: 0px 40%;
+        font: 20px;
+    } */
+    body.intro .menu{
+        display: block;
+    }
+
+}
